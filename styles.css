@@ -1,0 +1,37 @@
+body {
+    background-color:dimgray;
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    font-size: 120%;
+}
+a:link {
+    color: chartreuse;
+}
+a:visited {
+    color: brown;
+}
+a:hover {
+    color: bisque;
+}
+a:active {
+    color: crimson;
+}
+h1 {
+    color: beige;
+    background-color: black;
+}
+img {
+    max-width: 100%;
+}
+.home-image{
+    width: 500px
+    margin: auto;
+    display: block;
+}
+.About-Image{
+     width: 500px
+    margin: auto;
+    display: block;
+}

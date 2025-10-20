@@ -5,6 +5,7 @@
         <link rel="icon" href="SiteIcon.png">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
@@ -13,14 +14,14 @@
             <button class="nav-button" id="menu-button">
                 <img src="burger2.svg">    
             </button>
-            <a href="Index.html">
+            <a href="Index.html" class="logo-link">
                 <img class="logo" src="TiptoesolesLogo.png" alt="tiptoe soles logo">
             </a>
             <nav class="navigation" id="main">   
                 <a href="men.hmtl">Men</a>
-                <a href="men.hmtl">Women</a>
-                <a href="men.hmtl">Accessories</a>
-                <a href="men.hmtl">Services</a>
+                <a href="women.hmtl">Women</a>
+                <a href="accessories.hmtl">Accessories</a>
+                <a href="services.hmtl">Services</a>
             </nav>
             <form id="search" method="get" action="">
                 <input type="search" name="keywords" id="keywords" placeholder="Search for a Product">
@@ -28,15 +29,18 @@
                     <img src="Search.svg">
                 </button>
             </form>
-            <nav class="navigation">   
-                <a href="men.hmtl">
-                    <img src="Account.svg" alt="Account">
+            <nav class="navigation" id="user-nav">   
+                <a href="account.hmtl">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="sr-only">Account</span>
                 </a>
-                <a href="men.hmtl">
-                    <img src="Wishlist.svg" alt="Wishlist">
+                <a href="wishlist.hmtl">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    <span class="sr-only">Wishlist</span>
                 </a>
-                <a href="men.hmtl">
-                    <img src="Cart.svg" alt="Shopping Cart">
+                <a href="shoppingcart.hmtl">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="sr-only">Shoppingcart</span>
                 </a>
             </nav>
         </header>    

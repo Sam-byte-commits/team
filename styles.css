@@ -12,6 +12,9 @@ body {
     color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 a {
@@ -158,4 +161,38 @@ img {
 .slide:nth-child(1) {
     background-image: url("Halloween.jpg");
     color: orange;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.main-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(17, 15, 11);
+    color: var(--moss-green);
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav a, .social-nav a, .legal-nav a {
+    color: var(--moss-green);
+    padding: 5px;
+}
+.social-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 120%;
+}
+.legal-nav {
+    min-width: 100%;
+    gap: 3em;
+    display: flex;
+    flex-direction: row;
 }

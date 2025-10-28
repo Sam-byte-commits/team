@@ -132,3 +132,30 @@ img {
     height: 1px;
     overflow: hidden;
 }
+
+.slide {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: var(--citron);
+    background-size: cover;
+    background-position: center;
+}
+.slide h2 {
+    font-size: 3ch;
+    text-shadow: 3px 4px 4px black;
+}
+.slide button {
+    padding: 5px;
+    min-width: 150px;
+    background-color: var(--moss-green);
+    border: solid 1px var(--sunset);
+    border-radius: 8px;
+}
+.slide:nth-child(1) {
+    background-image: url("Halloween.jpg");
+    color: orange;
+}

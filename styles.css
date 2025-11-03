@@ -200,3 +200,34 @@ nav a {
     display: flex;
     flex-direction: row;
 }
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+.card img {
+    max-width: 100%;
+}
+.card-content {
+    padding: 15px;
+}
+.card {
+    flex: 1;
+    background-color: white;
+    border: 1px solid var(--cadet-gray);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card button {
+    min-width: 100%;
+    padding: 12px;
+    border: 1px solid var (--sunset);
+    border-radius: 5px;
+}
+.main-content {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw;
+}

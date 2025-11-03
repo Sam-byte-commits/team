@@ -162,6 +162,10 @@ img {
     background-image: url("Halloween.jpg");
     color: orange;
 }
+.slide:nth-child(2) {
+    background-image: url("Black\ Friday.jpg");
+    color: var(--citron);
+}
 
 nav a {
     text-decoration: none;

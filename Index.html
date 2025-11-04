@@ -1,71 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Tiptoe Soles</title>
-        <link rel="icon" href="SiteIcon.png">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="script.js"></script>
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    </head>
-    
-    <body>
-        <header class="page-header">
-            <button class="nav-button" id="menu-button">
-                <img src="burger2.svg">    
+
+<head>
+    <title>Tiptoe Soles</title>
+    <link rel="icon" href="SiteIcon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <button class="nav-button" id="menu-button">
+            <img src="burger2.svg">
+        </button>
+        <a href="Index.html" class="logo-link">
+            <img class="logo" src="TiptoesolesLogo.png" alt="tiptoe soles logo">
+        </a>
+        <nav class="navigation" id="main">
+            <a href="men.hmtl">Men</a>
+            <a href="women.hmtl">Women</a>
+            <a href="accessories.hmtl">Accessories</a>
+            <a href="services.hmtl">Services</a>
+        </nav>
+        <form id="search" method="get" action="">
+            <input type="search" name="keywords" id="keywords" placeholder="Search for a Product">
+            <button type="submit">
+                <img src="Search.svg">
             </button>
-            <a href="Index.html" class="logo-link">
-                <img class="logo" src="TiptoesolesLogo.png" alt="tiptoe soles logo">
+        </form>
+        <nav class="navigation" id="user-nav">
+            <a href="account.hmtl">
+                <i class="fa-solid fa-user"></i>
+                <span class="sr-only">Account</span>
             </a>
-            <nav class="navigation" id="main">   
-                <a href="men.hmtl">Men</a>
-                <a href="women.hmtl">Women</a>
-                <a href="accessories.hmtl">Accessories</a>
-                <a href="services.hmtl">Services</a>
-            </nav>
-            <form id="search" method="get" action="">
-                <input type="search" name="keywords" id="keywords" placeholder="Search for a Product">
-                <button type="submit">
-                    <img src="Search.svg">
-                </button>
-            </form>
-            <nav class="navigation" id="user-nav">   
-                <a href="account.hmtl">
-                    <i class="fa-solid fa-user"></i>
-                    <span class="sr-only">Account</span>
-                </a>
-                <a href="wishlist.hmtl">
-                    <i class="fa-solid fa-shield-heart"></i>
-                    <span class="sr-only">Wishlist</span>
-                </a>
-                <a href="shoppingcart.hmtl">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span class="sr-only">Shoppingcart</span>
-                </a>
-            </nav>
-        </header>    
-        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-            <div class="slide">
-                <h2>Halloween Sales</h2>
-                <button>Shop Halloween</button>
-            </div>
-            <div class="slide">
-                <h2>Black Friday</h2>
-                <button>Shop Black Friday</button>
-            </div>
-             <div class="slide">
-                <h2>Cyber Monday</h2>
-                <button>Shop Cyber Monday</button>
-            </div>
-            <div class="slide">
-                <h2>Christmas</h2>
-                <button>Shop Christmas</button>
-            </div>
+            <a href="wishlist.hmtl">
+                <i class="fa-solid fa-shield-heart"></i>
+                <span class="sr-only">Wishlist</span>
+            </a>
+            <a href="shoppingcart.hmtl">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="sr-only">Shoppingcart</span>
+            </a>
+        </nav>
+    </header>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="slide">
+            <h2>Halloween Sales</h2>
+            <button>Shop Halloween</button>
         </div>
-        <main class="main-content">
+        <div class="slide">
+            <h2>Black Friday</h2>
+            <button>Shop Black Friday</button>
+        </div>
+        <div class="slide">
+            <h2>Cyber Monday</h2>
+            <button>Shop Cyber Monday</button>
+        </div>
+        <div class="slide">
+            <h2>Christmas</h2>
+            <button>Shop Christmas</button>
+        </div>
+    </div>
+    <main class="main-content">
+        <div class="scollbox">
             <div class="card-container">
                 <div class="card">
                     <img src="/Shoes/Clancy Blue_imgupscaler.ai_V1(Fast)_2K.png">
@@ -77,54 +81,60 @@
                     </div>
                 </div>
                 <div class="card">
-                   <img src="/Shoes/Sally Black_imgupscaler.ai_V1(Fast)_2K.png">
+                    <img src="/Shoes/Sally Black_imgupscaler.ai_V1(Fast)_2K.png">
                     <div class="card-content">
                         <h3>Womens</h3>
                         <button type="button">
                             Shop Womens
                         </button>
-                    </div> 
+                    </div>
                 </div>
                 <div class="card">
-                   <img src="/Shoes/Work and Walk Chesnut_imgupscaler.ai_V1(Fast)_2K.png">
+                    <img src="/Shoes/Work and Walk Chesnut_imgupscaler.ai_V1(Fast)_2K.png">
                     <div class="card-content">
                         <h3>Accessories</h3>
                         <button type="button">
                             Shop Accessories
                         </button>
-                    </div> 
+                    </div>
                 </div>
             </div>
-        </main>
-        <footer class="main-footer">
-            <nav class="footer-nav">
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="#">Policies</a>
-            </nav>
-            <nav class="social-nav">
-                <a href="https://facebook.com">
-                    <i class="fa-brands fa-facebook"></i>
-                   <span class="sr-only">Facebook</span> 
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fa-brands fa-square-instagram"></i>
-                    <span class="sr-only">Instagram</span>  
-                </a>
-                <a href="https://tiktok.com">
-                    <i class="fa-brands fa-tiktok"></i>
-                    <span class="sr-only">TikTok</span>
-                </a>
-                <a href="https://au.linkedin.com/in/derek2020w">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <span class="sr-only">Linkedin</span>
-                </a>
-            </nav>
-            <nav class="legal-nav">
-                <a href="#">Copyright</a>
-                <a href="#">Terms and Conditions</a>
-                <a href="#">Privacy</a>
-            </nav>
-        </footer>
-    </body>
+        </div>
+        <div class="banner2">
+            <h2>Spring Sale</h2>
+            <button type="button">Shop Spring Sale</button>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <nav class="footer-nav">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Policies</a>
+        </nav>
+        <nav class="social-nav">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-square-instagram"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://tiktok.com">
+                <i class="fa-brands fa-tiktok"></i>
+                <span class="sr-only">TikTok</span>
+            </a>
+            <a href="https://au.linkedin.com/in/derek2020w">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="sr-only">Linkedin</span>
+            </a>
+        </nav>
+        <nav class="legal-nav">
+            <a href="#">Copyright</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy</a>
+        </nav>
+    </footer>
+</body>
+
 </html>

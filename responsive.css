@@ -55,5 +55,17 @@
     #user-nav {
         gap: 5px;
     }
-   
+    .main-content {
+        max-width: 100vw;
+    }
+    .card {
+        min-width: 30vw;
+        flex-shrink: 0;
+    }
+    .card-container {
+        min-width: 150vw;
+    }
+    .scrollbox {
+        overflow-x: scroll;
+    }
 }

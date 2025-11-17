@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>about</title>
+    <title>Tiptoe Soles</title>
     <link rel="icon" href="SiteIcon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
-     <nav>
-            <a href="index.html">home</a>
-            <a href="about.html">About</a>
+    <header class="page-header">
+        <button class="nav-button" id="menu-button">
+            <img src="burger2.svg" alt="Menu icon">
+        </button>
+        <a href="Index.html" class="logo-link">
+            <img class="logo" src="TiptoesolesLogo.png" alt="tiptoe soles logo">
+        </a>
+        <nav class="navigation" id="main">
+            <a href="men.hmtl">Men</a>
+            <a href="women.hmtl">Women</a>
+            <a href="accessories.hmtl">Accessories</a>
+            <a href="services.hmtl">Services</a>
         </nav>
+        <form id="search" method="get" action="/formdata">
+            <input type="search" name="keywords" id="keywords" placeholder="Search for a Product">
+            <button type="submit">
+                <img src="Search.svg" alt="Search Button Icon">
+            </button>
+        </form>
+        <nav class="navigation" id="user-nav">
+            <a href="account.hmtl">
+                <i class="fa-solid fa-user"></i>
+                <span class="sr-only">Account</span>
+            </a>
+            <a href="wishlist.hmtl">
+                <i class="fa-solid fa-shield-heart"></i>
+                <span class="sr-only">Wishlist</span>
+            </a>
+            <a href="shoppingcart.hmtl">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="sr-only">Shoppingcart</span>
+            </a>
+        </nav>
+    </header> 
+   
         <h1>TipToe Soles is an Australian owned and operated company.  We aim to provide comfortable footwear at affordable prices to customers within Australia and around the world. </h1>
         <img class = "About-Image" src = "picture.jpg" alt = creek and tree>
 </body>
